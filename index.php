@@ -56,7 +56,7 @@ div.end{
 <!-- Top container -->
 <div class="container">
   <div>
-  <img src=ADVANCULANCE.png height="100px" width="400px" style="margin-left: 400px;">
+  <img src="https://db-measuers.oss-me-central-1.aliyuncs.com/logo/ADVANCULANCE.svg" height="200px" width="600px" style="margin-left:300px;">
 
   </div>
 </div>
@@ -127,7 +127,7 @@ div.end{
       <div class="w3-right" >
         <h5>Feeds</h5>
      <video  control height="auto" width="700px" loop autoplay muted>
-      <source src="Camera.mp4" type="Video/mp4">
+      <source src="https://db-measuers.oss-me-central-1.aliyuncs.com/videos/Camera.mp4" type="Video/mp4">
      </video>
       </div>
     </div>
@@ -141,31 +141,31 @@ div.end{
     <h5>Vital Signs </h5>
     <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
       <tr>
-        <td><img src="https://www.svgrepo.com/show/452056/lungs.svg" height="100" width="100">
+        <td><img src="https://db-measuers.oss-me-central-1.aliyuncs.com/imgs/lungs.svg" height="100" width="100">
         </td>
 
         <td>Oxgyn Saturation</td>
         <td><?php echo $row['Respiration']; ?></td>
       </tr>
       <tr>
-        <td><img src="https://www.svgrepo.com/show/484361/thermometer.svg" height="100" width="100"></td>
+        <td><img src="https://db-measuers.oss-me-central-1.aliyuncs.com/imgs/thermometer.svg" height="100" width="100"></td>
         <td>Tempretature</td>
         <td><?php echo $row['Temperature']; ?></td>
       </tr>
       <tr>
-        <td><img src="https://www.svgrepo.com/show/280519/oxygen-breath.svg" height="100" width="100"></td>
+        <td><img src="https://db-measuers.oss-me-central-1.aliyuncs.com/imgs/oxygen-breath.svg" height="100" width="100"></td>
 
         <td>Respiratory Rate</td>
         <td><?php echo $row['Oxygen_saturation']; ?></td>
       </tr>
       <tr>
-        <td><img src="https://www.svgrepo.com/show/482738/heart-electrocardiogram-1.svg" height="100" width="100"></td>
+        <td><img src="https://db-measuers.oss-me-central-1.aliyuncs.com/imgs/heart-electrocardiogram-1.svg" height="100" width="100"></td>
 
         <td>Heart Rate</td>
         <td><?php echo $row['Heart_beat']; ?></td>
       </tr>
       <tr>
-        <td><img src="https://www.svgrepo.com/show/190835/pressure-meter.svg" height="100" width="100"></td>
+        <td><img src="https://db-measuers.oss-me-central-1.aliyuncs.com/imgs/pressure-meter.svg" height="100" width="100"></td>
 
         <td>Blood Pressure</td>
         <td><?php echo $row['Pressure']; ?></td>
